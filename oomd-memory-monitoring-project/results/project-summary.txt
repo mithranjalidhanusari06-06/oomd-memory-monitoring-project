@@ -1,0 +1,12 @@
+Project: Facebook OOMD
+Version: v0.5.0-142-g1a271ff
+Git commit: 1a271ff
+Automated tests passed: 16/16
+Failed tests: 0
+Configuration: demo-pressure.json
+Detector: pressure_above
+Monitored cgroup: system.slice
+Threshold: 60
+Duration: 30 seconds
+Action: continue
+Safety: No process-killing action configured in the demonstration.

@@ -1,0 +1,27 @@
+{
+  "rulesets": [
+    {
+      "name": "Memory pressure monitoring",
+      "detectors": [
+        [
+          "Check memory pressure",
+          {
+            "name": "pressure_above",
+            "args": {
+              "cgroup": "system.slice",
+              "resource": "memory",
+              "threshold": "60",
+              "duration": "30"
+            }
+          }
+        ]
+      ],
+      "actions": [
+        {
+          "name": "continue",
+          "args": {}
+        }
+      ]
+    }
+  ]
+}
