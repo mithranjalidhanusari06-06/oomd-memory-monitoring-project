@@ -45,6 +45,4 @@ The demonstration uses the `continue` action and does not intentionally kill pro
 
 The demonstration ran under low memory pressure. Genuine high memory pressure and process-killing behavior were not tested.
 
-## Original Repository
 
-https://github.com/facebookincubator/oomd
